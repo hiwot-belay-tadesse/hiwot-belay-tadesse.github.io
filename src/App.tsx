@@ -42,7 +42,7 @@ const App: React.FC = () => (
           <Text>
             Theme by{" "}
             <a
-              href="https://github.com/Motion115/academic-homepage-react"
+              href="https://github.com/Motion115/minimal-academic-folio/"
               target="_blank"
               rel="noreferrer noopener"
             >

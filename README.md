@@ -2,7 +2,7 @@
 
 This project (**minimal-academic-folio**) is a sleek-looking, highly customizable academic portfolio made with the popular [React](https://react.dev/) and [AntD](https://ant.design/) React UI libraries. It provides students and researchers with unified components to quickly construct and showcase their research work in a visually appealing way, as well as maintaining the diversity from the source code for them to embed customized items. 
 
-You can find a live demo of this template here.
+You can find a live demo of this template [here](https://motion115.github.io/minimal-academic-folio/).
 
 ## Installation
 

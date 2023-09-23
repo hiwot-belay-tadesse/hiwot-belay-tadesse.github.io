@@ -10,7 +10,7 @@ const webList = [
   <TimeEntry
     content={
       <a
-        href="https://space.bilibili.com/"
+        href="https://bilibili.com/"
         target="_blank"
         rel="noreferrer noopener"
       >
