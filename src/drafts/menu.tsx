@@ -12,24 +12,28 @@ const items: MenuProps["items"] = [
         key: "About",
         label: <a href={baseServerAddress + "/#About"}>About</a>,
       },
-      {
-        key: "Updates",
-        label: <a href={baseServerAddress + "/#Updates"}>Updates</a>,
-      },
+      // {
+      //   key: "Updates",
+      //   label: <a href={baseServerAddress + "/#Updates"}>Updates</a>,
+      // },
       {
         key: "Publications",
         label: <a href={baseServerAddress + "/#Publications"}>Publications</a>,
       },
+      {
+        key: "Teaching",
+        label: <a href={baseServerAddress + "/#Teaching"}>Teaching</a>,
+      },
     ],
   },
   {
-    label: <a href={baseServerAddress + "/test"}>Test</a>,
-    key: "Test",
+    label: <a href={baseServerAddress + "/CV"}>CV</a>,
+    key: "CV",
   },
-  {
-    label: <a href={baseServerAddress + "/misc"}>Misc</a>,
-    key: "Misc",
-  },
+  // {
+  //   label: <a href={baseServerAddress + "/misc"}>Misc</a>,
+  //   key: "Misc",
+  // },
 ];
 
 export default items;
