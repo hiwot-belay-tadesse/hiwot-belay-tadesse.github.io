@@ -1,7 +1,7 @@
 {
   "name": "minimal-academic-folio",
   "version": "1.0.0",
-  "homepage": "https://motion115.github.io/minimal-academic-folio",
+  "homepage": "https://hiwot-belay-tadesse.github.io",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.4.2",
