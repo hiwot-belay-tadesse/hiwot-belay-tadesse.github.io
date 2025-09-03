@@ -6,82 +6,79 @@ const { Title, Paragraph, Text, Link } = Typography;
 
 const publicationList = [
   <PubEntry
-    paperTitle="Lorem ipsum dolor sit amet"
+    paperTitle="Transparent Trade-offs between Properties of Explanations:"
     authors={
       <>
-        <b>A B</b>, A C, B D
+        <b>Hiwot Belay Tadesse</b>,{" "}
+        <a href="https://alihanhyk.github.io" target="_blank" rel="noopener noreferrer">A Hüyük</a>,{" "}
+        <a href="https://yanivyacoby.github.io" target="_blank" rel="noopener noreferrer">Y Yacoby</a>,{" "}
+        <a href="https://onefishy.github.io" target="_blank" rel="noopener noreferrer">W Pan</a>, and{" "}
+        <a href="https://finale.seas.harvard.edu" target="_blank" rel="noopener noreferrer">F Doshi-Velez</a>
       </>
     }
     venueType="Conference"
-    venueShort="LIDSA 23"
-    venueFull="Proceedings of the Lorem ipsum dolor sit amet"
-    paperLink="https://arxiv.org/"
-    exploreLink="https://google.com/"
-    codeLink="https://github.com/"
+    venueShort="UAI 2025"
+    venueFull="Proceedings of the Forty-first Conference on Uncertainty in Artificial Intelligence, PMLR 286:4092-4112"
+    paperLink="https://openreview.net/pdf?id=VviAbE2nrH"
+    // exploreLink="https://google.com/"
+    codeLink="https://github.com/dtak/POE"
     abstractContent={
       <>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare:
-        <li> A good template;</li>
+        Transparent Trade-offs between Properties of Explanations:
+        <li> Hiwot Belay Tadesse;</li>
         <li> An excellent template.</li>
       </>
     }
   />,
   <PubEntry
-    paperTitle="Lorem ipsum dolor sit amet"
+    paperTitle="Optimizing Explanations: Nuances Matter When Evaluation Metrics Become Loss Functions"
     authors={
       <>
-        <b>A B</b>, A C, B D
-      </>
-    }
-    venueType="Pending"
-    venueShort="TXXX"
-    venueFull="Under review at Proceedings of the Lorem ipsum dolor sit amet"
-    paperLink="https://arxiv.org/"
-    exploreLink="https://google.com/"
-    codeLink="https://github.com/"
-  />,
-  <PubEntry
-    paperTitle="Lorem ipsum dolor sit amet"
-    authors={
-      <>
-        <b>A B</b>, A C, B D
+        Jonas B. Raedler,<b> Hiwot Belay Tadesse</b>,{" "}
+        <a href="https://onefishy.github.io" target="_blank" rel="noopener noreferrer">W. Pan</a>, and{" "}
+        <a href="https://finale.seas.harvard.edu" target="_blank" rel="noopener noreferrer">F. Doshi-Velez</a>
       </>
     }
     venueType="Conference"
-    venueShort="LIDSA 22"
-    venueFull="Proceedings of the Lorem ipsum dolor sit amet"
-    paperLink="https://arxiv.org/"
-    exploreLink="https://google.com/"
-    codeLink="https://github.com/"
-    awardName="Best Paper (top 1%)"
+    venueShort="ICML'25 MOSS Workshop"
+    venueFull="ICML'25 Methods and Opportunities at Small Scale (MOSS) Workshop"
+    paperLink="https://openreview.net/forum?id=HUq8YbDpFt"
+    // exploreLink="https://google.com/"
+    // codeLink="https://github.com/"
   />,
+
   <PubEntry
-    paperTitle="Lorem ipsum dolor sit amet"
+    paperTitle="Directly Optimizing Explanations"
     authors={
       <>
-        <b>A B</b>, A C, B D
+        <b>Hiwot Belay Tadesse</b>,{" "}
+        <a href="https://yanivyacoby.github.io" target="_blank" rel="noopener noreferrer">Y. Yacoby</a>,{" "}
+        <a href="https://onefishy.github.io" target="_blank" rel="noopener noreferrer">W. Pan</a>, and{" "}
+        <a href="https://finale.seas.harvard.edu" target="_blank" rel="noopener noreferrer">F. Doshi-Velez</a>
+      </>
+    }
+    venueType="Conference"
+    venueShort="ICML'24 HADS Workshop"
+    venueFull="ICML Workshop on Humans, Algorithmic Decision-Making and Society: Modeling Interactions and Impact, 2024"
+    // paperLink="https://arxiv.org/"
+    exploreLink="https://icml.cc/virtual/2024/38218"
+    // codeLink="https://github.com/"
+    // awardName="Best Paper (top 1%)"
+  />,
+
+  <PubEntry
+    paperTitle="Variational Exploration Module VEM: A Cloud-Native Optimization and Validation Tool for Geospatial Modeling and AI Workflows"
+    authors={
+      <>
+        Julian Kuehnert, <b>Hiwot Belay Tadesse</b>, Chris Dearden, Rosie Lickorish, Paolo Fraccaro, Anne Jones, Blair Edwards, Sekou L Remy, Peter Melling
       </>
     }
     venueType="arXiv"
     venueShort="arXiv"
-    venueFull="arXiv Lorem ipsum dolor sit amet"
-    paperLink="https://arxiv.org/"
-    exploreLink="https://google.com/"
-    codeLink="https://github.com/"
-  />,
-  <PubEntry
-    paperTitle="Lorem ipsum dolor sit amet"
-    authors={
-      <>
-        <b>A B</b>, A C, B D
-      </>
-    }
-    venueType="Journal"
-    venueShort="ACM Comm"
-    venueFull="Communications of the ACM"
-    paperLink="https://arxiv.org/"
-    exploreLink="https://google.com/"
-    codeLink="https://github.com/"
+    venueFull="arXiv preprint arXiv:2311.16196"
+    paperLink="https://arxiv.org/abs/2311.16196"
+    // exploreLink="https://google.com/"
+    // codeLink="https://github.com/"
   />,
 ];
 
